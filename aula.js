@@ -420,3 +420,66 @@
         // const estagiario = new pessoa('Augusto', 19, 1.87, 'Solteiro');
         // console.log(estagiario.nome)
         // console.log(estagiario.altura)
+
+            //Aula 36 Js - Natureza dinamica de objetos
+
+//                 const mouse = {
+//                     cor : 'white',
+//                     marca : 'Logitech'
+//                 }
+//                 console.log(mouse);
+// mouse.velocidade = 5000;
+// mouse.trocarDPI = function(){
+//     console.log("Mudando DPI")
+// }
+// delete mouse.velocidade;
+
+//Exemplos de que os objetos tem natureza dinâmica no JS, ou seja, podem ser modificados facilmente
+
+// const celular = {
+//     marcaCelular : 'Samsung',
+//     tamanhoTela: {
+//         vertical: 155,
+//         horizontal : 75
+//     },
+//     ligar: function(){
+//         console.log("Fazendo ligação...")
+//     }
+// }
+// const novoObjeto = Object.assign({
+//     bateria: 5000
+// },celular);
+
+
+// console.log(novoObjeto);
+
+// //Outra forma de fazer a mesma coisa
+
+// const objeto2 = {...celular};//Spread ou 3 pontos
+// console.log(objeto2)
+
+//Math methods (pesquisar google JavaScript math)
+
+// let numeroAleatorio = Math.randon()
+// console.log(Math.round (numeroAleatorio))
+
+// Math.max(1,3,4,5)//Retorna o maior valor
+//Math.min(1,4,4,2)//Retorna o menor número
+
+//Tipo primitivo
+    // const mensagem = 'Blablabla mensagem';
+
+//Tipo objeto
+
+    // const outraMensagem = new String('Bom dia!');
+
+// mensagem = string
+
+// outraMensagem = objeto
+
+//objeto.length - retorna o tamanho da string
+// const outraMensagem = new String('Bom dia!');
+// console.log(outraMensagem[2])// Retorna 'm' pois é a letra que está nessa posição
+// console.log(outraMensagem.includes('Bom'))//Retorna True pois existe o termo 'bom' no objeto
+// console.log(outraMensagem.includes('Ababa'))//Retorna false pois não existe esse termo no objeto
+// console.log(outraMensagem.startsWith('b'))
